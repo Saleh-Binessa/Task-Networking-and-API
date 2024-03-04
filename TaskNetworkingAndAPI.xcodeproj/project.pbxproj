@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		2A613B252B95C0CA007F88B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A613B242B95C0CA007F88B8 /* AppDelegate.swift */; };
 		2A613B272B95C0CA007F88B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A613B262B95C0CA007F88B8 /* SceneDelegate.swift */; };
-		2A613B292B95C0CA007F88B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A613B282B95C0CA007F88B8 /* ViewController.swift */; };
 		2A613B2C2B95C0CA007F88B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A613B2A2B95C0CA007F88B8 /* Main.storyboard */; };
 		2A613B2E2B95C0CC007F88B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A613B2D2B95C0CC007F88B8 /* Assets.xcassets */; };
 		2A613B312B95C0CC007F88B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A613B2F2B95C0CC007F88B8 /* LaunchScreen.storyboard */; };
 		2A613B3C2B95C0CC007F88B8 /* TaskNetworkingAndAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A613B3B2B95C0CC007F88B8 /* TaskNetworkingAndAPITests.swift */; };
 		2A613B462B95C0CC007F88B8 /* TaskNetworkingAndAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A613B452B95C0CC007F88B8 /* TaskNetworkingAndAPIUITests.swift */; };
 		2A613B482B95C0CC007F88B8 /* TaskNetworkingAndAPIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A613B472B95C0CC007F88B8 /* TaskNetworkingAndAPIUITestsLaunchTests.swift */; };
+		2A613B572B95C114007F88B8 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A613B562B95C114007F88B8 /* Pet.swift */; };
+		2A613B5A2B95C12D007F88B8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A613B592B95C12C007F88B8 /* NetworkManager.swift */; };
+		2A613B5E2B95C258007F88B8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2A613B5D2B95C258007F88B8 /* Alamofire */; };
+		2A613B602B95C258007F88B8 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 2A613B5F2B95C258007F88B8 /* AlamofireDynamic */; };
+		2A613B622B95C351007F88B8 /* PetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A613B612B95C351007F88B8 /* PetTableViewController.swift */; };
+		2A613B642B95D8E6007F88B8 /* DetailPetViewCotroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A613B632B95D8E6007F88B8 /* DetailPetViewCotroller.swift */; };
+		2A613B672B95D974007F88B8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2A613B662B95D974007F88B8 /* SnapKit */; };
+		2A613B692B95D974007F88B8 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 2A613B682B95D974007F88B8 /* SnapKit-Dynamic */; };
+		2A613B6C2B95DD33007F88B8 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2A613B6B2B95DD33007F88B8 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +47,6 @@
 		2A613B212B95C0CA007F88B8 /* TaskNetworkingAndAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskNetworkingAndAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A613B242B95C0CA007F88B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A613B262B95C0CA007F88B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2A613B282B95C0CA007F88B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2A613B2B2B95C0CA007F88B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A613B2D2B95C0CC007F88B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A613B302B95C0CC007F88B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,10 @@
 		2A613B412B95C0CC007F88B8 /* TaskNetworkingAndAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskNetworkingAndAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A613B452B95C0CC007F88B8 /* TaskNetworkingAndAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskNetworkingAndAPIUITests.swift; sourceTree = "<group>"; };
 		2A613B472B95C0CC007F88B8 /* TaskNetworkingAndAPIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskNetworkingAndAPIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A613B562B95C114007F88B8 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		2A613B592B95C12C007F88B8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2A613B612B95C351007F88B8 /* PetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTableViewController.swift; sourceTree = "<group>"; };
+		2A613B632B95D8E6007F88B8 /* DetailPetViewCotroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPetViewCotroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A613B672B95D974007F88B8 /* SnapKit in Frameworks */,
+				2A613B5E2B95C258007F88B8 /* Alamofire in Frameworks */,
+				2A613B602B95C258007F88B8 /* AlamofireDynamic in Frameworks */,
+				2A613B692B95D974007F88B8 /* SnapKit-Dynamic in Frameworks */,
+				2A613B6C2B95DD33007F88B8 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +115,14 @@
 		2A613B232B95C0CA007F88B8 /* TaskNetworkingAndAPI */ = {
 			isa = PBXGroup;
 			children = (
-				2A613B242B95C0CA007F88B8 /* AppDelegate.swift */,
-				2A613B262B95C0CA007F88B8 /* SceneDelegate.swift */,
-				2A613B282B95C0CA007F88B8 /* ViewController.swift */,
+				2A613B542B95C0F9007F88B8 /* Supporting */,
+				2A613B552B95C103007F88B8 /* VCs */,
 				2A613B2A2B95C0CA007F88B8 /* Main.storyboard */,
 				2A613B2D2B95C0CC007F88B8 /* Assets.xcassets */,
 				2A613B2F2B95C0CC007F88B8 /* LaunchScreen.storyboard */,
 				2A613B322B95C0CC007F88B8 /* Info.plist */,
+				2A613B582B95C119007F88B8 /* Models */,
+				2A613B5B2B95C226007F88B8 /* Network */,
 			);
 			path = TaskNetworkingAndAPI;
 			sourceTree = "<group>";
@@ -127,6 +144,40 @@
 			path = TaskNetworkingAndAPIUITests;
 			sourceTree = "<group>";
 		};
+		2A613B542B95C0F9007F88B8 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				2A613B242B95C0CA007F88B8 /* AppDelegate.swift */,
+				2A613B262B95C0CA007F88B8 /* SceneDelegate.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		2A613B552B95C103007F88B8 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				2A613B612B95C351007F88B8 /* PetTableViewController.swift */,
+				2A613B632B95D8E6007F88B8 /* DetailPetViewCotroller.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		2A613B582B95C119007F88B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A613B562B95C114007F88B8 /* Pet.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2A613B5B2B95C226007F88B8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2A613B592B95C12C007F88B8 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +194,13 @@
 			dependencies = (
 			);
 			name = TaskNetworkingAndAPI;
+			packageProductDependencies = (
+				2A613B5D2B95C258007F88B8 /* Alamofire */,
+				2A613B5F2B95C258007F88B8 /* AlamofireDynamic */,
+				2A613B662B95D974007F88B8 /* SnapKit */,
+				2A613B682B95D974007F88B8 /* SnapKit-Dynamic */,
+				2A613B6B2B95DD33007F88B8 /* Kingfisher */,
+			);
 			productName = TaskNetworkingAndAPI;
 			productReference = 2A613B212B95C0CA007F88B8 /* TaskNetworkingAndAPI.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +273,11 @@
 				Base,
 			);
 			mainGroup = 2A613B182B95C0CA007F88B8;
+			packageReferences = (
+				2A613B5C2B95C258007F88B8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				2A613B652B95D974007F88B8 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				2A613B6A2B95DD33007F88B8 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 2A613B222B95C0CA007F88B8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +321,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A613B292B95C0CA007F88B8 /* ViewController.swift in Sources */,
+				2A613B572B95C114007F88B8 /* Pet.swift in Sources */,
+				2A613B5A2B95C12D007F88B8 /* NetworkManager.swift in Sources */,
+				2A613B642B95D8E6007F88B8 /* DetailPetViewCotroller.swift in Sources */,
 				2A613B252B95C0CA007F88B8 /* AppDelegate.swift in Sources */,
 				2A613B272B95C0CA007F88B8 /* SceneDelegate.swift in Sources */,
+				2A613B622B95C351007F88B8 /* PetTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +512,6 @@
 				INFOPLIST_FILE = TaskNetworkingAndAPI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -473,7 +538,6 @@
 				INFOPLIST_FILE = TaskNetworkingAndAPI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -601,6 +665,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2A613B5C2B95C258007F88B8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+		2A613B652B95D974007F88B8 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		2A613B6A2B95DD33007F88B8 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A613B5D2B95C258007F88B8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A613B5C2B95C258007F88B8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		2A613B5F2B95C258007F88B8 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A613B5C2B95C258007F88B8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		2A613B662B95D974007F88B8 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A613B652B95D974007F88B8 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		2A613B682B95D974007F88B8 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A613B652B95D974007F88B8 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		2A613B6B2B95DD33007F88B8 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A613B6A2B95DD33007F88B8 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2A613B192B95C0CA007F88B8 /* Project object */;
 }
